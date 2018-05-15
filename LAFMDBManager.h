@@ -2,7 +2,7 @@
 //  LAFMDBManager.h
 //  MiaoMoreNew
 //
-//  Created by 刘云梦 on 16/7/5.
+//  Created by Qminlov on 16/7/5.
 //  Copyright © 2016年 cn.miao. All rights reserved.
 //
 

@@ -22,7 +22,7 @@ pod 'LAFMDBManager'
 
 ## Author
 
-JustinSense, liuyunmeng@miao.cn
+Qminlov
 
 ## License
 

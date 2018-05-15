@@ -114,8 +114,8 @@
 		E0A6435092984A4DC9E95613F5ACDDE3 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A1FE2006A967BE06886C450214BDFE /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EC02837F7465B7AED8E1A256D57C91 /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3355DB3F63F6FE79FD8DD6188B0B3A4 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = AE94674608619558EA8DCEBE8902C148 /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3EA278520AB786E002F971C /* MMFMDBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EA278320AB786E002F971C /* MMFMDBManager.h */; };
-		E3EA278620AB786E002F971C /* MMFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA278420AB786E002F971C /* MMFMDBManager.m */; };
+		E3EA278520AB786E002F971C /* LAFMDBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EA278320AB786E002F971C /* LAFMDBManager.h */; };
+		E3EA278620AB786E002F971C /* LAFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA278420AB786E002F971C /* LAFMDBManager.m */; };
 		E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 27576C638FD3AB691E7F4FB1E3980464 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = A1000A875D63BCF2E590201DB9EE9499 /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EA5D8C4E4C7818097A2F3B96EF78BFE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
@@ -298,8 +298,8 @@
 		E0C795E66617B8A23208A467CDA4475C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E156AF9341293266845AA8774ED518EA /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		E2616189C8531E4107F893827F4A8853 /* Pods_LAFMDBManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAFMDBManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3EA278320AB786E002F971C /* MMFMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFMDBManager.h; sourceTree = "<group>"; };
-		E3EA278420AB786E002F971C /* MMFMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFMDBManager.m; sourceTree = "<group>"; };
+		E3EA278320AB786E002F971C /* LAFMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAFMDBManager.h; sourceTree = "<group>"; };
+		E3EA278420AB786E002F971C /* LAFMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAFMDBManager.m; sourceTree = "<group>"; };
 		E4286F5B187014B00F18766782F7018D /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		E64EE1FA2E988E166397F7C5FFFBEBB6 /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		E8899DDCDB159906296A77EA9F670B8C /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
@@ -573,8 +573,8 @@
 		AA6D8FF998EB01A6C1B488CD543F0965 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E3EA278320AB786E002F971C /* MMFMDBManager.h */,
-				E3EA278420AB786E002F971C /* MMFMDBManager.m */,
+				E3EA278320AB786E002F971C /* LAFMDBManager.h */,
+				E3EA278420AB786E002F971C /* LAFMDBManager.m */,
 				DF46ECBE6AB3A41DA9AC297F5DD28BCC /* LAFMDBManager.podspec */,
 				F684D3ED14C8A439BF57C37B513A9E1F /* LICENSE */,
 				05BD11949B469DE59ED7DDC3FA7E6E01 /* README.md */,
@@ -678,7 +678,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF8AC81F0475CC604B0D1DE1047A35B /* LAFMDBManager-umbrella.h in Headers */,
-				E3EA278520AB786E002F971C /* MMFMDBManager.h in Headers */,
+				E3EA278520AB786E002F971C /* LAFMDBManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,7 +900,7 @@
 			files = (
 				DBFE38E41BE06F8097DE0DD236204D77 /* LAFMDBManager-dummy.m in Sources */,
 				76413B56E74ACD0115E0B009C961F818 /* ReplaceMe.m in Sources */,
-				E3EA278620AB786E002F971C /* MMFMDBManager.m in Sources */,
+				E3EA278620AB786E002F971C /* LAFMDBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
