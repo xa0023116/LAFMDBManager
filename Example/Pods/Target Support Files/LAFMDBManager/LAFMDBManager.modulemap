@@ -1,0 +1,6 @@
+framework module LAFMDBManager {
+  umbrella header "LAFMDBManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

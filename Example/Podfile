@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'LAFMDBManager_Example' do
+  pod 'LAFMDBManager', :path => '../'
+
+  target 'LAFMDBManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end

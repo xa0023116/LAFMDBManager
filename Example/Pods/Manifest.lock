@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.5)
+  - LAFMDBManager (0.1.0)
+  - Specta (1.0.5)
+
+DEPENDENCIES:
+  - Expecta
+  - LAFMDBManager (from `../`)
+  - Specta
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  LAFMDBManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  LAFMDBManager: 6f9c1183c9a17e405acf67b1615b521dc079d81a
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+
+PODFILE CHECKSUM: 1879baf5017ed59d92318608d64727ed9f8f7308
+
+COCOAPODS: 1.5.2
